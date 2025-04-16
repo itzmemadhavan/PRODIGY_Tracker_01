@@ -1,0 +1,106 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5e5b5b;
+    padding: 15px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect */
+  nav ul li a:hover {
+    color: #edaf51;
+  }
+  
+  /* Content styling */
+  .content {
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  /* Navbar color change on scroll */
+  nav.scrolled {
+    background-color: #040404;
+  }
+
+
+  label{
+    position: absolute;
+    left: 50px;
+    top: 125px;
+    background-color: #fff;
+    padding: 0px 5px;
+    transition: transform 0.3s ease color 0.3s ease;
+    color: blue;
+  }
+ .contact{
+  position: absolute;
+  left: 660px;
+  top: 150px;
+ }
+ input{
+  margin-top: 20px;
+ }
+ #one{
+  position: absolute;
+  top: 15px;
+  left: 10px;
+ }
+ #two{
+  position: absolute;
+  top: 75px;
+  left: 10px;
+ }
+ #three{
+  position: absolute;
+  top: 130px;
+  left: 10px;
+ }
+
+  .contact input{
+    padding:10px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  .contact button{
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .contact button:hover{
+    background-color: orangered;
+    color: white;
+  }
